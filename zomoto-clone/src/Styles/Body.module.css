@@ -1,0 +1,25 @@
+.imageTag {
+  height: 40%;
+}
+.div2 {
+  width: 70%;
+  height: 230px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* border: 1px solid red; */
+  line-height: 0.5;
+}
+.div2 > div {
+  border-radius: 10px;
+  height: 100%;
+  border: 1px solid blue;
+  text-align: left;
+}
+.div2 > div > img {
+  height: 160px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

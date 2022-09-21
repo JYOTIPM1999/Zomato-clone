@@ -14,6 +14,7 @@ function Navbar() {
       <div>
         <img
           src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+          alt="img"
           style={{ width: "250px" }}
         />
         <h1>Discover the best food & drinks in Kolkata</h1>
