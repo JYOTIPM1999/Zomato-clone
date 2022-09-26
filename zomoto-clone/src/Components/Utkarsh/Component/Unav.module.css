@@ -3,14 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-y: hidden;
+}
 
 nav{
+    position: absolute;
+    top: 0;
+    z-index: 2;
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     /* border: 1px solid red; */
+    background-color: white;
     height: 70px;
+    z-index: 4;
 
 }
 
@@ -36,8 +44,8 @@ img{
     
     
     top:20px;
-    width: 20px;
-    height: 4px;
+    width: 17px;
+    height: 3px;
     background-color: black;
     opacity: .6;
     margin: 3px;
@@ -45,6 +53,11 @@ img{
 
 
 }
+
+.dropdown{
+    display: none;
+}
+
 
 
 
@@ -85,6 +98,41 @@ img{
         font-size: 12.5px;
         font-weight: 500;
     }
+
+    /* dropdown */
+
+    .dropdown {
+        display: block;
+        position: absolute;
+        top: 71px;
+        z-index: 1;
+      height: auto;
+      letter-spacing: 1.5px;
+      width: 100%;
+      background-color: white;
+      transition: .5s ease-out;
+      
+    }
+    
+    .dropdown > p {
+    
+        margin-top: 10px;
+        margin-bottom: 25px;
+        opacity: .6;
+      font-weight: 400;
+      animation: dropdownmenu 5s ease-out;
+    
+    }
     
 }
+
+
+@media screen and (max-width:350px){
+
+    .Logoheading{
+        display: none;
+    }
+    
+}
+
 

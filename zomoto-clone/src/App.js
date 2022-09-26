@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
        <Unav/>
+       <div style={{height:"70px"}}></div>
        <Slider/>
+       
       
     </div>
   );
