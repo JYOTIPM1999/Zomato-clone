@@ -3,9 +3,7 @@ import zomato from "../img/zomatologo.jpg";
 import { useState } from "react";
 
 export default function Unav() {
-
-  const [active, setActive] = useState(false)
-
+  const [active, setActive] = useState(false);
 
   return (
     <>
@@ -27,14 +25,25 @@ export default function Unav() {
           <li>RESOURCES</li>
         </ul>
 
-        <div onClick={()=>setActive(!active)} className={styles.burger}>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        
+          <div  onClick={() => setActive(!active)} className={active?styles.hideburger:styles.burger}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        
+        {/* {active && (
+          <div onClick={() => setActive(!active)} className={styles.hideburger}>
+            <div></div>
+            <div></div>
+          </div>
+        )} */}
       </nav>
 
-       <div style={{ transform:active?"translateY(-1px)":"translateY(-100%)"}} className={styles.dropdown}>
+      <div
+        style={{ transform: active ? "translateY(-1px)" : "translateY(-100%)" }}
+        className={styles.dropdown}
+      >
         <p>FINANCIALS</p>
         <p>NEWS & EVENTS</p>
         <p>GOVERNANCE</p>
