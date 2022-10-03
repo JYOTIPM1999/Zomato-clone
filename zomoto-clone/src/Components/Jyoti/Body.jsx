@@ -29,7 +29,7 @@ function Body() {
             src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
             alt="img3"
           />
-          <h3>Nightlifes and Clubs</h3>
+          <h3>Nightlifes and Club</h3>
           <p>Explore the city's top nightlife outlets</p>
         </div>
       </div>
