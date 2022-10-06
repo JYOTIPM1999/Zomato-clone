@@ -24,10 +24,10 @@ function Navbar() {
           <form action="">
             <select name="" id="">
               <option value="">Delhi</option>
-              <option value="">Delhi</option>
-              <option value="">Delhi</option>
-              <option value="">Delhi</option>
-              <option value="">Delhi</option>
+              <option value="">Mumbai</option>
+              <option value="">Pune</option>
+              <option value="">Bangalore</option>
+              <option value="">Kolkata</option>
             </select>
           </form>
         </div>
